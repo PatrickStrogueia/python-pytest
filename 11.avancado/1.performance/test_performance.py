@@ -7,3 +7,5 @@ def test_long_running_function_performance():
     end_time = time.time()
     duration = end_time - start_time
     assert duration < 3, f"A função demorou {duration}, mais do que o esperado."
+
+# pytest -v  .\11.avancado\
